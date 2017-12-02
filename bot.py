@@ -52,7 +52,9 @@ async def read():
 
     f.close()
 
-
+@bot.command()
+async def hate(*args)
+    await bot.say("brandon is ugly")
 
     
 
