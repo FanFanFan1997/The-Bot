@@ -25,7 +25,7 @@ async def read():
     app_id=  '306163839896677'
     app_secret= 'b46fed8fbb1539af3827de7009c750a8'
     access_token= app_id + "|" + app_secret
-    page_name = input("Please enter your facebook page url: ")
+    page_name = 'https://www.facebook.com/mcmasterconfessions/'
     graph = facebook.GraphAPI(access_token, 2.11)#Request access
 
     site_info =  graph.get_object(id=page_name, field= 'message') #Get id of page
