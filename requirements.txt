@@ -1,5 +1,5 @@
 discord
-facebook
+facebook.py
 websockets
-aiohttp
+aiohttp.py
 yarl
