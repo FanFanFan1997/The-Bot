@@ -72,4 +72,4 @@ async def cool(ctx):
     if ctx.invoked_subcommand is None:
         await bot.say('No, {0.subcommand_passed} is not cool'.format(ctx))
 
-bot.run(TOKEN)
+bot.run(TOKEN_NUMBER)
