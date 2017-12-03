@@ -50,12 +50,7 @@ async def read():
             await bot.say(words)
 
     f.close()
-
-@bot.command()
-async def hate()
-    await bot.say("brandon is ugly")
-
-    
+   
 
        
 @bot.command()
