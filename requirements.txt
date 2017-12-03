@@ -3,3 +3,4 @@ facebook.py
 websockets
 aiohttp
 yarl
+async_timeout
