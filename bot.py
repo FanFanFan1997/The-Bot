@@ -64,4 +64,4 @@ async def joined(member : discord.Member):
     await bot.say('{0.name} joined in {0.joined_at}'.format(member))
 
 
-bot.run(TOKEN_NUMBER)
+bot.run(TOKEN)
